@@ -1,3 +1,10 @@
+#tree git docker maven java-1.8.0-openjdk httpd htop
+
+yum install tree git docker maven java-1.8.0-openjdk httpd htop -y
+amazon-linux-extras install ansible2 -y
+yum install python3 python-pip python-dlevel -y
+
+
 #Jenkins
 
 yum install jenkins -y
@@ -8,8 +15,3 @@ java -version
 update-alternatives --config java
 
 
-#tree git docker maven java-1.8.0-openjdk httpd htop
-
-yum install tree git docker maven java-1.8.0-openjdk httpd htop -y
-amazon-linux-extras install ansible2 -y
-yum install python3 python-pip python-dlevel -y
